@@ -1,0 +1,124 @@
+body {
+    font-family:cursive;
+    text-decoration: none;
+    color: black;
+    text-shadow: 6px 6px 6px rgb(48, 48, 48);   
+}
+
+header {
+    padding: 20px;
+    width: 100%;
+    background-image: url(https://img.freepik.com/free-vector/seamless-white-interlaced-rounded-arc-patterned-background_53876-97975.jpg?size=626&ext=jpg&ga=GA1.1.1222169770.1701907200&semt=ais);}
+
+    nav{display: flex;
+    justify-content: space-around;}
+    
+    nav a{text-decoration: none;
+    color: black;
+    font-size: 21px;
+    text-shadow: 6px 6px 6px rgb(48, 48, 48);
+    font-weight: 800;}
+
+    h3{
+        text-decoration: none;
+        font-size: 20px;
+        border: 3px solid darkgray;
+        padding: 10px;
+        color:black;
+        border-radius: 10px;}
+    
+    h3:hover{background-color: darkgray;}
+    .container {
+        margin-top: 60px;
+        display: flex;
+        justify-content: center;
+
+    }
+    
+    .photos {
+        display: flex;
+        width: 500px;
+        flex-wrap: wrap;
+    }
+    
+    .photos img {
+        opacity: 0.2;
+        width: 270px;
+        height: 190px;
+        margin-left: 75px;
+        margin-top: 23px;
+        margin-bottom: 15px;
+    }
+    
+    .photos img:hover {
+        opacity: 1;
+        border: 4px solid gray;
+        width: 310px;
+        height: 220px;
+        transition: 1s ease-out;
+        padding: 5px;
+    }
+
+    .kar1 {position: relative;
+        left: 235px;
+        top: 85px;
+        padding: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 5px 0 0 darkgray;}
+
+    .kar2 {position: relative;
+        left: -215px;
+        bottom:240px;
+        padding: 10px;
+        border-radius: 10px;
+        box-shadow: 3px 5px 0 0 darkgray;}
+
+    .kar3 {position: relative;
+    right: 115px;
+    bottom:125px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 5px 0 0 darkgray;}
+
+    .kar4 {position: relative;
+        left: -495px;
+        bottom:340px;
+        padding: 10px;
+        border-radius: 10px;
+        box-shadow: 3px 5px 0 0 darkgray;}
+
+        .kar5 {position: relative;
+            left: 510px;
+            bottom:650px;
+            padding: 10px;
+            border-radius: 10px;
+            box-shadow: 3px 5px 0 0 darkgray;}
+
+            .foot{
+                background-color: #48036f;
+                top: 2545px;
+                left: 0px;
+                width: 1520px;
+                position: absolute;
+                padding: 25px;
+                background-image: url(https://img.freepik.com/free-vector/seamless-white-interlaced-rounded-arc-patterned-background_53876-97975.jpg?size=626&ext=jpg&ga=GA1.1.1222169770.1701907200&semt=ais);
+                }
+               
+               footer p{ font-size: 22px;
+                text-decoration: none;
+                    
+                    font-size: 21px;
+                    text-shadow: 6px 6px 6px rgb(48, 48, 48);
+                    font-weight: 800;
+                    top:130px;
+                    background-image: url(https://img.freepik.com/free-vector/seamless-white-interlaced-rounded-arc-patterned-background_53876-97975.jpg?size=626&ext=jpg&ga=GA1.1.1222169770.1701907200&semt=ais);
+               }
+
+        .video1{position: relative;
+               left: 455px;
+               top: 60px;}
+
+        .video2{position: relative;
+                right: 477px;
+                bottom: 270px;
+             }
